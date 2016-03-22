@@ -608,6 +608,8 @@ header {
 	}
 
 	@media ($desktop-lg) {
+		padding-bottom: 56%;
+
 		> h1 {
 			font-size: 8vh;
 		}
@@ -774,7 +776,7 @@ header {
 }
 
 .feature--device {
-	overflow-y: hidden;
+	overflow: hidden;
 
 	h1 {
 		letter-spacing: 0;
@@ -852,6 +854,7 @@ header {
 
 .bring-philo-to-you {
 	padding-top: 1px; /*to contain margins*/
+	background-color: adjust-color($black, $lightness: -1);
 
 	> h1 {
 		margin: 40px 0 35px;
@@ -996,7 +999,6 @@ footer {
 
 	.footnote {
 		font-size: 15px;
-		font-weight: 300;
 		text-align: center;
 		opacity: .5;
 	}

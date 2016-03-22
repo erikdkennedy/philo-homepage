@@ -4,6 +4,11 @@ $(document).ready(function() {
 					LISTENERS
 	*****************************************/
 
+	//PROTOTYPE ONLY: make sure href="#" links don't go to top of page
+	$("a[href=#]").click(function(e) {
+		e.preventDefault();
+	});
+
 	//PROTOTYPE ONLY: switch between Philo found and not found
 	$(document).keyup(function(e) {
 		//switch if "p" is pressed
@@ -32,7 +37,7 @@ $(document).ready(function() {
 		var $nextDivOffset = $(this).parent().next().offset().top;
 		var animationTimeInMS = 750;
 
-		$("body").animate({
+		$("body, html").animate({
 			"scrollTop": $nextDivOffset
 		}, animationTimeInMS);
 	});

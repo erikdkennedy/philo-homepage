@@ -34,9 +34,9 @@ $(document).ready(function() {
         $("[data-background-parallax").each(function() {
             var speed = $(this).attr("data-speed");
             var translation = scrollDist*speed;
-            var translationInPx = translation + "px";
+            var translationInPx = "0 " + translation + "px";
 
-            $(this).css("background-position-y", translationInPx);
+            $(this).css("background-position", translationInPx);
         });
     });
 });

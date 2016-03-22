@@ -402,10 +402,12 @@ header {
       .splash .page-down:hover {
         opacity: 1; } }
   @media (min-width: 1200px) {
-    .splash > h1 {
-      font-size: 8vh; }
-    .splash .app-stores {
-      margin-top: 30px; } }
+    .splash {
+      padding-bottom: 56%; }
+      .splash > h1 {
+        font-size: 8vh; }
+      .splash .app-stores {
+        margin-top: 30px; } }
 
 .feature {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
@@ -548,7 +550,7 @@ header {
         align-self: center; } }
 
 .feature--device {
-  overflow-y: hidden; }
+  overflow: hidden; }
   .feature--device h1 {
     letter-spacing: 0; }
   .feature--device .single img {
@@ -595,7 +597,8 @@ header {
 
 .bring-philo-to-you {
   padding-top: 1px;
-  /*to contain margins*/ }
+  /*to contain margins*/
+  background-color: #070707; }
   .bring-philo-to-you > h1 {
     margin: 40px 0 35px;
     font-size: 25px;
@@ -685,7 +688,6 @@ footer {
     text-align: center; }
   footer .footnote {
     font-size: 15px;
-    font-weight: 300;
     text-align: center;
     opacity: .5; }
   @media (min-width: 569px) {
