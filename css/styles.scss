@@ -330,6 +330,13 @@ input.icon {
 	}
 }
 
+.page-down {
+	display: block;
+	margin: 0 auto;
+	width: 48px;
+	height: 48px;
+}
+
 
 
 /*****************************************
@@ -337,11 +344,14 @@ input.icon {
 *****************************************/
 
 header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	padding-top: 10px;
 
 	.philo-logo {
 		display: block;
-		margin: 0 auto 12px;
+		margin: 12px auto;
 		width: 86px;
 		height: 42px;
 		background-image: url(../img/philo-logo.png);
@@ -359,6 +369,8 @@ header {
 
 		display: flex;
 		justify-content: space-around;
+		order: 1;
+		width: 100%;
 		background: rgba(white, .05);
 		height: 44px;
 
@@ -388,6 +400,7 @@ header {
 	}
 
 	.watch-button {
+		margin: 10px auto;
 		text-align: center;
 
 		.btn.btn--watch.btn--disabled {
@@ -398,10 +411,6 @@ header {
 	}
 
 	@media ($tablet) {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-
 		.philo-logo {
 			margin: 12px;
 		}
@@ -409,13 +418,7 @@ header {
 		.watch-button {
 			margin: 10px;
 		}
-
-		.nav-items {
-			width: 100%;
-			order: 1;
-		}
 	}
-
 
 	@media ($desktop) {
 		flex-wrap: nowrap;
@@ -499,8 +502,7 @@ header {
 
 .splash {
 	position: relative;
-	height: calc(100vh - 108px);
-	max-height: 568px;
+	height: 380px;
 	text-align: center;
 	background: url(../img/football.png) center top;
 	background-size: cover;
@@ -540,14 +542,19 @@ header {
 		left: 0;
 		right: 0;
 		text-align: center;
+		z-index: 2;
+	}
+
+	.page-down {
+		display: none;
 	}
 
 	@media ($tablet) {
-		height: 100vh;
-		max-height: none;
+		height: 0;
+		padding-bottom: 61%;
 
 		> h1 {
-			padding-top: 30vh;
+			padding-top: 10%;
 		}
 
 		> h2 {
@@ -566,7 +573,7 @@ header {
 		}
 
 		.app-stores {
-			bottom: 5vh;
+			position: relative;
 
 			> a:not(:last-child) {
 				margin-right: 10px;
@@ -575,17 +582,38 @@ header {
 	}
 
 	@media ($desktop) {
-
 		> h1 {
-			font-size: 8vh;
+			padding-top: 20%;
+			font-size: 6vh;
 		}
 
 		> h2 {
 			font-size: 3.1vh;
 		}
 
+		.page-down {
+			display: block;
+			position: absolute;
+			bottom: 20px;
+			left: 0;
+			right: 0;
+			opacity: .8;
+			z-index: 2;
+			transition: opacity .1s ease;
+
+			&:hover {
+				opacity: 1;
+			}
+		}
+	}
+
+	@media ($desktop-lg) {
+		> h1 {
+			font-size: 8vh;
+		}
+
 		.app-stores {
-			margin-top: 70px;
+			margin-top: 30px;
 		}
 	}
 }

@@ -19,7 +19,6 @@ $(document).ready(function() {
 
 	//on scroll
 	$(document).scroll(function() {
-
 		//add dark translucent bg to header if scrolled
 		if ($(this).scrollTop() > 0) {
 			$("header").addClass("is-scrolled");
@@ -28,11 +27,14 @@ $(document).ready(function() {
 		}
 	});
 
-	//click links that scroll to "Bring Philo to You"
-	$("a[href=#bring-philo-to-you]").click(function() {
-		$(document.body).animate({
-			'scrollTop': $('#bring-philo-to-you').offset().top
-		}, 1000);
+	//click page down button
+	$(".page-down").click(function() {
+		var $nextDivOffset = $(this).parent().next().offset().top;
+		var animationTimeInMS = 750;
+
+		$("body").animate({
+			"scrollTop": $nextDivOffset
+		}, animationTimeInMS);
 	});
 
 	//click dropdown link
