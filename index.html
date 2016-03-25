@@ -21,9 +21,29 @@
         <header>
             <a href="#" class="philo-logo ir">Philo</a>
             <ul class="nav-items">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Help</a></li>
+                <li class="dropdown">
+                    <a href="#">About</a>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Contact</a>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#"><img src="img/icons/facebook.png"> facebook</a></li>
+                        <li><a href="#"><img src="img/icons/twitter.png"> twitter</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Help</a>
+                    <ul>
+                        <li><a href="#">Help/Support</a></li>
+                        <li><a href="#">Make a wish</a></li>
+                    </ul>
+                </li>
                 <li class="dropdown">
                     <a href="#">Solutions</a>
                     <ul>
@@ -37,7 +57,7 @@
                     <a href="#" class="btn btn--watch if-philo-yes">Watch Philo</a>
                     <div class="if-philo-no">
                         <a href="#" class="btn btn--watch btn--disabled">Unsupported location</a>
-                        <p class="no-philo-links"><a href="#">Report Issue</a></p>
+                        <p class="no-philo-links"><a href="#">Why am I seeing this?</a></p>
                     </div>
                 </div>
                 <a href="#" class="btn btn--login if-cookie-no">Login</a>
@@ -45,13 +65,13 @@
         </header>
 
         <!-- SPLASH -->
-        <div class="splash" data-background-parallax data-speed=".25">
+        <div class="splash">
             <h1>Turn on the future of TV</h1>
             <h2>Watch and record TV from any device</h2>
-            <div class="app-stores if-philo-yes if-cookie-yes">
-                <a href="https://itunes.apple.com/us/app/philo/id834527959" class="app-stores__apple">Available on the Apple App Store</a>
-                <a href="https://play.google.com/store/apps/details?id=com.philo.philo" class="app-stores__google">Get it on Google Play</a>
-                <a href="https://owner.roku.com/add/philo" class="app-stores__roku">Available on the Roku Channel Store</a>
+            <div class="app-stores">
+                <a href="https://itunes.apple.com/us/app/philo/id834527959"><img src="img/app-store-apple.png" alt="Available on the App Store"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.philo.philo"><img src="img/app-store-google.png" alt="Get it on Google Play"></a>
+                <a href="https://owner.roku.com/add/philo"><img src="img/app-store-roku.png" alt="Available on the Roku Channel Store"></a>
             </div>
             <a href="#" class="page-down"><img src="img/icons/chevron-down.png"></a>
             <div class="splash__fade"></div>
@@ -93,10 +113,10 @@
         <div class="feature feature--device">
             <div class="feature__wrapper">
                 <div class="feature__img">
-                    <div class="single">
+                    <div class="feature__img__single">
                         <img src="img/devices-sm.png">
                     </div>
-                    <div class="multi">
+                    <div class="feature__img__multi">
                         <img src="img/devices/phone.png" data-parallax data-speed="-.04" data-axis="x">
                         <img src="img/devices/tablet.png" data-parallax data-speed="-.01" data-axis="x">
                         <img src="img/devices/computer.png" data-parallax data-speed="-.03" data-axis="x">
@@ -131,40 +151,16 @@
 
         <!-- FOOTER -->
         <footer>
-            <div class="cols">
-                <ul class="col">
-                    <li>About</li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Press</a></li>
-                </ul>
-                <ul class="col">
-                    <li>Contact</li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#"><img src="img/icons/facebook.png"> facebook</a></li>
-                    <li><a href="#"><img src="img/icons/twitter.png"> twitter</a></li>
-                </ul>
-                <ul class="col">
-                    <li>Help</li>
-                    <li><a href="#">Help/Support</a></li>
-                    <li><a href="#">Make a wish</a></li>
-                </ul>
-                <ul class="col">
-                    <li>Solutions</li>
-                    <li><a href="#">Operators</a></li>
-                    <li><a href="#">University Admin</a></li>
-                </ul>
-            </div>
-            <div class="if-philo-yes app-stores">
-                <a href="https://itunes.apple.com/us/app/philo/id834527959" class="app-stores__apple">Available on the Apple App Store</a>
-                <a href="https://play.google.com/store/apps/details?id=com.philo.philo" class="app-stores__google">Get it on Google Play</a>
-                <a href="https://owner.roku.com/add/philo" class="app-stores__roku">Available on the Roku Channel Store</a>
+            <div class="app-stores">
+                <a href="https://itunes.apple.com/us/app/philo/id834527959"><img src="img/app-store-apple.png" alt="Available on the App Store"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.philo.philo"><img src="img/app-store-google.png" alt="Get it on Google Play"></a>
+                <a href="https://owner.roku.com/add/philo"><img src="img/app-store-roku.png" alt="Available on the Roku Channel Store"></a>
             </div>
             <p class="footnote">Copyright ©2016 Philo Inc. · <a href="#">Terms and Conditions</a> · <a href="#">Privacy Policy</a></p>
         </footer>
 
         <script src="js/vendor/jquery-1.11.1.min.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/vendor/parallax.js"></script>
+        <script src="js/min/main-min.js"></script>
+        <script src="js/vendor/retina.min.js"></script>
     </body>
 </html>

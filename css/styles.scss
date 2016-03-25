@@ -2,6 +2,7 @@
 				VARIABLES
 *****************************************/
 
+/* COLORS */
 $blue: #279DD8;
 $dark-blue: adjust-color($blue, $saturation: 6, $lightness: -5);
 $black: #0A0A0A;
@@ -12,6 +13,7 @@ $mobile-lg: "min-width: 375px";
 $tablet: "min-width: 569px";
 $desktop: "min-width: 769px";
 $desktop-lg: "min-width: 1200px";
+$retina: "-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi";
 
 
 
@@ -19,11 +21,29 @@ $desktop-lg: "min-width: 1200px";
 			  HTML STYLES
 *****************************************/
 
-body {
-	@extend .dark-bg;
+@font-face {
+	font-family: "OmnesMSC";
+	font-weight: 300;
+	src: url(../fonts/OmnesMSCLight.ttf);
+}
 
+@font-face {
+	font-family: "OmnesMSC";
+	font-weight: 400;
+	src: url(../fonts/OmnesMSC-Regular.ttf);
+}
+
+@font-face {
+	font-family: "OmnesMSC";
+	font-weight: 500;
+	src: url(../fonts/OmnesMSCMedium.ttf);
+}
+
+body {
 	font-family: "OmnesMSC", sans-serif;
+	color: white;
 	background: $black;
+    -webkit-font-smoothing: antialiased;
 
 	@media ($desktop) {
 		font-size: 17px;
@@ -40,6 +60,10 @@ a {
 
 	&:hover {
 		text-decoration: underline;
+	}
+
+	&:focus {
+		outline: initial;
 	}
 }
 
@@ -62,45 +86,26 @@ input {
 
 
 /*****************************************
-				HELPERS
+			  HELPER FUNCTIONS
 *****************************************/
 
-.ir {
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-}
+@mixin background-image-retina($file, $type, $width, $height) {
+	background-image: url($file + '.' + $type);
 
-.dark-bg {
-    color: white;
-    -webkit-font-smoothing: antialiased;
-}
-
-.ellipses {
-	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-}
-
-.ul-reset {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
-
-.center {
-	text-align: center;
-}
-
-@mixin always($color) {
-    &,
-    &:hover,
-    &:focus,
-    &:active,
-    &:hover:active,
-    &:focus:active {
-        color: $color;
-    }
+	@media only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (-moz-min-device-pixel-ratio: 2),
+	only screen and (-o-min-device-pixel-ratio: 2/1),
+	only screen and (min-device-pixel-ratio: 2),
+	only screen and (min-resolution: 192dpi),
+	only screen and (min-resolution: 2dppx) {
+		& {
+			background-image: url($file + '@2x.' + $type);
+			-webkit-background-size: $width $height;
+			-moz-background-size: $width $height;
+			-o-background-size: $width $height;
+			background-size: $width $height;
+		}
+	}
 }
 
 
@@ -113,18 +118,6 @@ body.philo-no .if-philo-yes,
 body:not(.philo-no) .if-philo-no,
 body.cookie-yes .if-cookie-no,
 body:not(.cookie-yes) .if-cookie-yes {display: none !important;}
-
-@media ($mobile) {
-	.no-mobile {
-		display: none !important;
-	}
-}
-
-@media ($tablet) {
-	.mobile-only {
-		display: none !important;
-	}
-}
 
 .btn {
 	display: inline-block;
@@ -152,47 +145,46 @@ body:not(.cookie-yes) .if-cookie-yes {display: none !important;}
 	}
 }
 
-.btn--watch {
-	position: relative;
-	padding-left: 45px;
+	.btn--watch {
+		@include background-image-retina("../img/icons/play", png, 24, 24);
 
-	&:before {
-		content: url(../img/icons/play.png);
-		position: absolute;
-		top: 6px;
-		left: 12px;
+		position: relative;
+		padding-left: 45px;
+		background-image: url(../img/icons/play.png);
+		background-repeat: no-repeat;
+		background-position: 12px 10px;
+		background-size: 24px 24px;
 	}
-}
 
-.btn--outline {
-	border-radius: 2px;
-	line-height: 42px;
-	background: none;
-	border: 1px solid white;
-	text-transform: none;
+	.btn--outline {
+		border-radius: 2px;
+		line-height: 42px;
+		background: none;
+		border: 1px solid white;
+		text-transform: none;
 
-	&:hover {
-		background-color: rgba(white, .07);
+		&:hover {
+			background-color: rgba(white, .07);
+		}
 	}
-}
 
-.btn--disabled {
-	$disabled: mix(white, $black, 10);
-	color: rgba(white, .5);
-	background-color: $disabled;
-	cursor: default;
+	.btn--disabled {
+		$disabled: mix(white, $black, 10);
 
-	&:hover {
+		@include background-image-retina("../img/icons/exclamation-point", png, 24, 24);
+
+		color: rgba(white, .5);
 		background-color: $disabled;
-	}
+		background-image: url(../img/icons/exclamation-point.png);
+		cursor: default;
 
-	&:before {
-		content: url(../img/icons/exclamation-point.png);
+		&:hover {
+			background-color: $disabled;
+		}
 	}
-}
 
 .no-philo-links {
-	margin-top: -2px;
+	margin-top: 0;
 	font-size: 13px;
 	color: $blue;
 	font-weight: 500;
@@ -210,17 +202,15 @@ body:not(.cookie-yes) .if-cookie-yes {display: none !important;}
 }
 
 .app-stores {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	margin-bottom: 10px;
 
 	> a {
-		@extend .ir;
-
-		display: inline-block;
+		margin: 2px;
 		width: 142px;
 		height: 48px;
-		background-repeat: no-repeat;
-		background-position: 0 0;
-		background-size: contain;
 
 		@media ($desktop) {
 			opacity: .8;
@@ -230,28 +220,11 @@ body:not(.cookie-yes) .if-cookie-yes {display: none !important;}
 			}
 		}
 	}
-
-	.app-stores__apple {
-		background-image: url(../img/app-store-apple.png);
-	}
-
-	.app-stores__google {
-		background-image: url(../img/app-store-google.png);
-	}
-
-	.app-stores__roku {
-		background-image: url(../img/app-store-roku.png);
-	}
 }
 
-input.icon {
-	background-repeat: no-repeat;
-	background-position: 10px center;
-	padding-left: 35px;
-
-	&.icon--compass {background-image: url(../img/icons/compass.png);}
-	&.icon--tv {background-image: url(../img/icons/tv-sm.png);}
-}
+	body.philo-no:not(.cookie-yes) .app-stores {
+		display: none;
+	}
 
 .dropdown {
 	$dropdown: adjust-color($black, $lightness: 5);
@@ -259,13 +232,13 @@ input.icon {
 	position: relative;
 
 	> a + ul {
-		@extend .ul-reset;
-
 		display: none;
 		position: absolute;
-		border-radius: 5px;
 		top: 115%;
-		right: 0;
+		left: 0;
+		margin: 0;
+		border-radius: 5px;
+		list-style-type: none;
 		padding: 5px 0;
 		background-color: $dropdown;
 		box-shadow: 0 0 0 1px white,
@@ -275,8 +248,8 @@ input.icon {
 		&:before {
 			content: "";
 			position: absolute;
-			top: -7px;
-			right: 7px;
+			top: -7.41px; /*6+sqrt(2) to account for equal border around triangle*/
+			left: 7px;
 			width: 0;
 			height: 0;
 			border-style: solid;
@@ -288,7 +261,7 @@ input.icon {
 			content: "";
 			position: absolute;
 			top: -6px;
-			right: 8px;
+			left: 8px;
 			width: 0;
 			height: 0;
 			border-style: solid;
@@ -305,11 +278,11 @@ input.icon {
 
 			&:hover {
 				text-decoration: none;
-				background-color: rgba(white, .05);
+				background-color: rgba(white, .1);
 			}
 		}
 
-		@media ($desktop) {
+		@media ($tablet) {
 			left: 0;
 			right: auto;
 
@@ -350,6 +323,8 @@ header {
 	padding-top: 10px;
 
 	.philo-logo {
+		@include background-image-retina("../img/philo-logo", png, 86, 42);
+
 		display: block;
 		margin: 12px auto;
 		width: 86px;
@@ -359,18 +334,21 @@ header {
 		background-size: contain;
 
 		@media ($desktop) {
+			@include background-image-retina("../img/philo-logo", png, 106, 52);
+
 			width: 106px;
 			height: 52px;
 		}
 	}
 
 	.nav-items {
-		@extend .ul-reset;
-
 		display: flex;
 		justify-content: space-around;
 		order: 1;
+		margin: 0;
+		padding: 0;
 		width: 100%;
+		list-style-type: none;
 		background: rgba(white, .05);
 		height: 44px;
 
@@ -382,20 +360,26 @@ header {
 				height: 100%;
 				line-height: 46px;
 			}
+
+			&:last-child > ul {
+				left: auto;
+				right: 0px;
+
+				&:before {
+					left: auto;
+					right: 7px;
+				}
+
+				&:after {
+					left: auto;
+					right: 8px;
+				}
+			}
+
 		}
-	}
 
-	li.nav-item--dropdown {
-
-		> a:after {
-			content: url(../img/icons/down-arrow.png);
-			position: relative;
-			top: -3px;
-			margin-left: 6px;
-		}
-
-		> ul {
-			display: none;
+		img {
+			margin-right: 8px;
 		}
 	}
 
@@ -416,7 +400,7 @@ header {
 		}
 
 		.watch-button {
-			margin: 10px;
+			margin: 5px;
 		}
 	}
 
@@ -435,12 +419,7 @@ header {
 			rgba($black, .90) 40%,
 			rgba($black, .98));
 		background-repeat: no-repeat;
-		background-position-y: -60px;
 		transition: all 1s ease;
-
-		&.is-scrolled {
-			background-position-y: 0px;
-		}
 
 		.philo-logo {
 			margin: 0;
@@ -455,6 +434,21 @@ header {
 
 			> li {
 				margin-left: 20px;
+
+				&:last-child > ul {
+					left: 0px;
+					right: auto;
+
+					&:before {
+						left: 7px;
+						right: auto;
+					}
+
+					&:after {
+						left: 8px;
+						right: auto;
+					}
+				}
 			}
 		}
 
@@ -541,7 +535,6 @@ header {
 		bottom: 0;
 		left: 0;
 		right: 0;
-		text-align: center;
 		z-index: 2;
 	}
 
@@ -555,6 +548,7 @@ header {
 
 		> h1 {
 			padding-top: 10%;
+			font-size: 9vw;
 		}
 
 		> h2 {
@@ -575,8 +569,8 @@ header {
 		.app-stores {
 			position: relative;
 
-			> a:not(:last-child) {
-				margin-right: 10px;
+			> a {
+				margin: 2px 3px;
 			}
 		}
 	}
@@ -584,7 +578,7 @@ header {
 	@media ($desktop) {
 		> h1 {
 			padding-top: 20%;
-			font-size: 6vh;
+			font-size: 8vh;
 		}
 
 		> h2 {
@@ -608,10 +602,10 @@ header {
 	}
 
 	@media ($desktop-lg) {
-		padding-bottom: 56%;
+		padding-bottom: 55%;
 
 		> h1 {
-			font-size: 8vh;
+			font-size: 10vh;
 		}
 
 		.app-stores {
@@ -628,12 +622,12 @@ header {
 		padding: 10px;
 		max-width: 500px;
 
-		h1 {
+		> h1 {
 			margin-bottom: 8px;
 			font-size: 28px;
 			font-weight: 300;
 
-			img {
+			> img {
 				position: relative;
 				top: -2px;
 				left: -2px;
@@ -641,7 +635,7 @@ header {
 			}
 		}
 
-		p {
+		> p {
 			margin-top: 0;
 		}
 	}
@@ -657,7 +651,7 @@ header {
 			margin: 0;
 			align-self: center;
 
-			h1 {
+			> h1 {
 				font-size: 32px;
 			}
 		}
@@ -672,11 +666,11 @@ header {
 		}
 
 		.feature__text {
-			h1 {
+			> h1 {
 				font-size: 42px;
 			}
 
-			p {
+			> p {
 				font-size: 20px;
 			}
 		}
@@ -717,8 +711,7 @@ header {
 
 .feature--dvr {
 	position: relative;
-	height: 600px;
-	background-color: adjust-color($black, $lightness: -1);
+	height: 500px;
 	overflow: hidden;
 
 	.feature__img {
@@ -726,24 +719,23 @@ header {
 		margin-left: -100px;
 		z-index: 1;
 
-	 	img {
+	 	> img {
 			position: absolute;
-			transform: scale(.7);
 
 			&[data-speed=".1"] {width: (135px*.65); z-index: 6;}
 			&[data-speed=".2"] {width: (135px*.5); z-index: 5;}
 			&[data-speed=".3"] {width: (135px*.4); z-index: 4;}
 			&[data-speed=".4"] {width: (135px*.2); z-index: 3;}
 
-			&:nth-child(1)  {top: 25px;		left: 32%;}
+			&:nth-child(1)  {top: -65px;	left: 32%;}
 			&:nth-child(2)  {top: 410px;	left: 65%;}
 			&:nth-child(3)  {top: 240px;	left: -1%;}
-			&:nth-child(4)  {top: 505px;	left: 29%;}
-			&:nth-child(5)  {top: 378px;	left: 95%;}
+			&:nth-child(4)  {top: 235px;	left: 29%;}
+			&:nth-child(5)  {top: 88px;		left: 95%;}
 			&:nth-child(6)  {top: 17px;		left: 5%;}
 			&:nth-child(7)  {top: 487px;	left: 35%;}
-			&:nth-child(8)  {top: 149px;	left: 22%;}
-			&:nth-child(9)  {top: 353px;	left: 78%;}
+			&:nth-child(8)  {top: 149px;	left: 60%;}
+			&:nth-child(9)  {top: 273px;	left: 78%;}
 			&:nth-child(10) {top: 54px;		left: 52%;}
 			&:nth-child(11) {top: 93px;		left: 77%;}
 		}
@@ -751,7 +743,7 @@ header {
 		@media ($desktop) {
 			min-width: 50%;
 
-			img {
+			> img {
 				&[data-speed=".1"] {width: (135px*1); z-index: 6;}
 				&[data-speed=".2"] {width: (135px*.8); z-index: 5;}
 				&[data-speed=".3"] {width: (135px*.6); z-index: 4;}
@@ -765,7 +757,7 @@ header {
 		bottom: 0;
 		left: 0;
 		right: 0;
-		background: rgba($black, .9);
+		background-color: rgba($black, .95);
 		z-index: 2;
 
 		@media ($desktop) {
@@ -782,19 +774,19 @@ header {
 		letter-spacing: 0;
 	}
 
-	.single img {
+	.feature__img__single img {
 		position: relative;
 		left: 70%;
 		margin: 40px 0 10px;
 		transform: translateX(-50%);
 	}
 
-	.multi {
+	.feature__img__multi {
 		display: none;
 	}
 
 	@media ($mobile-lg) {
-		.single img {
+		.feature__img__single img {
 			left: 50%;
 		}
 	}
@@ -807,18 +799,20 @@ header {
 			max-width: 50%;
 			transform: scale(.8);
 			align-self: center;
+		}
 
-			.single {
+			.feature__img__single {
 				display: none;
 			}
 
-			.multi {
+			.feature__img__multi {
 				display: block;
 				position: relative;
 				height: 412px;
 
 				img {
 					position: absolute;
+					transition: all .8s ease-out;
 
 					&:nth-child(1) {
 						top: 311px;
@@ -842,7 +836,6 @@ header {
 					}
 				}
 			}
-		}
 	}
 
 	@media ($desktop-lg) {
@@ -854,7 +847,6 @@ header {
 
 .bring-philo-to-you {
 	padding-top: 1px; /*to contain margins*/
-	background-color: adjust-color($black, $lightness: -1);
 
 	> h1 {
 		margin: 40px 0 35px;
@@ -903,22 +895,19 @@ header {
 				flex-basis: 50%;
 				margin: 0 5px;
 			}
-
-			.btn {
-				width: auto;
-			}
 		}
 	}
 
 	@media ($desktop) {
 		> h1 {
-			margin: 100px auto;
+			margin: 80px auto 40px;
 			font-size: 58px;
 		}
 
 		.philo-for .philo-for__x {
 			margin: 0 20px;
 			padding: 0 3vw;
+			text-align: center;
 
 			> h2 {
 				margin: 25px 0 15px;
@@ -931,8 +920,16 @@ header {
 				}
 			}
 
+			> p {
+				text-align: left;
+			}
+
 			.btn {
-				margin: 0 0 70px;
+				margin: 0 auto 70px;
+				width: auto;
+				height: 50px;
+				line-height: 52px;
+				font-size: 18px;
 			}
 		}
 	}
@@ -951,68 +948,18 @@ footer {
 	background: $black;
 	z-index: 2;
 
-	.cols {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		margin: 0 auto;
-		max-width: 960px;
-
-		.col {
-			@extend .ul-reset;
-
-			flex-grow: 1;
-			flex-basis: 50%;
-			margin-bottom: 30px;
-			min-width: 140px;
-			max-width: 240px;
-
-			> li {
-				@extend .ellipses;
-
-				font-size: 18px;
-
-				> a {
-					display: inline-block;
-					height: 44px;
-					line-height: 46px;
-					font-size: 16px;
-					opacity: .7;
-
-					&:hover {
-						opacity: 1;
-					}
-
-					> img {
-						margin-right: 10px;
-						opacity: .7;
-					}
-				}
-			}
-		}
-	}
-
-	.app-stores {
-		margin: 0 -20px;
-		text-align: center;
-	}
-
 	.footnote {
+		margin-bottom: 0;
 		font-size: 15px;
 		text-align: center;
 		opacity: .5;
 	}
 
 	@media ($tablet) {
-
 		border-top: 1px solid rgba(white, .05);
 
 		.cols .col {
 			flex-basis: 25%;
 		}
-	}
-
-	@media ($desktop) {
-		padding-top: 100px;
 	}
 }

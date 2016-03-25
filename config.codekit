@@ -49,8 +49,8 @@
 		"outputAbbreviatedPath": "\/css\/styles.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
@@ -61,6 +61,17 @@
 		"initialSize": 3277,
 		"inputAbbreviatedPath": "\/img\/app-store-apple.png",
 		"outputAbbreviatedPath": "\/img\/app-store-apple.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/app-store-apple@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7469,
+		"inputAbbreviatedPath": "\/img\/app-store-apple@2x.png",
+		"outputAbbreviatedPath": "\/img\/app-store-apple@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -76,6 +87,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/app-store-google@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7853,
+		"inputAbbreviatedPath": "\/img\/app-store-google@2x.png",
+		"outputAbbreviatedPath": "\/img\/app-store-google@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/app-store-roku.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -83,6 +105,17 @@
 		"initialSize": 472,
 		"inputAbbreviatedPath": "\/img\/app-store-roku.png",
 		"outputAbbreviatedPath": "\/img\/app-store-roku.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/app-store-roku@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6295,
+		"inputAbbreviatedPath": "\/img\/app-store-roku@2x.png",
+		"outputAbbreviatedPath": "\/img\/app-store-roku@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -175,6 +208,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icons\/cap@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1939,
+		"inputAbbreviatedPath": "\/img\/icons\/cap@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/cap@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icons\/chevron-down.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -182,6 +226,17 @@
 		"initialSize": 1241,
 		"inputAbbreviatedPath": "\/img\/icons\/chevron-down.png",
 		"outputAbbreviatedPath": "\/img\/icons\/chevron-down.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/chevron-down@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3013,
+		"inputAbbreviatedPath": "\/img\/icons\/chevron-down@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/chevron-down@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -197,13 +252,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/icons\/compass.png": {
+	"\/img\/icons\/cloud@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 603,
-		"inputAbbreviatedPath": "\/img\/icons\/compass.png",
-		"outputAbbreviatedPath": "\/img\/icons\/compass.png",
+		"initialSize": 1415,
+		"inputAbbreviatedPath": "\/img\/icons\/cloud@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/cloud@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -215,6 +270,17 @@
 		"initialSize": 597,
 		"inputAbbreviatedPath": "\/img\/icons\/computer.png",
 		"outputAbbreviatedPath": "\/img\/icons\/computer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/computer@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1297,
+		"inputAbbreviatedPath": "\/img\/icons\/computer@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/computer@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -241,6 +307,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icons\/exclamation-point@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1563,
+		"inputAbbreviatedPath": "\/img\/icons\/exclamation-point@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/exclamation-point@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icons\/facebook.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -248,6 +325,17 @@
 		"initialSize": 233,
 		"inputAbbreviatedPath": "\/img\/icons\/facebook.png",
 		"outputAbbreviatedPath": "\/img\/icons\/facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/facebook@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 350,
+		"inputAbbreviatedPath": "\/img\/icons\/facebook@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/facebook@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -263,6 +351,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icons\/home@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1372,
+		"inputAbbreviatedPath": "\/img\/icons\/home@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/home@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icons\/play.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -274,13 +373,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/icons\/tv-sm.png": {
+	"\/img\/icons\/play@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 289,
-		"inputAbbreviatedPath": "\/img\/icons\/tv-sm.png",
-		"outputAbbreviatedPath": "\/img\/icons\/tv-sm.png",
+		"initialSize": 1477,
+		"inputAbbreviatedPath": "\/img\/icons\/play@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/play@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -296,6 +395,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icons\/tv@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1509,
+		"inputAbbreviatedPath": "\/img\/icons\/tv@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/tv@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icons\/twitter.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -303,6 +413,17 @@
 		"initialSize": 324,
 		"inputAbbreviatedPath": "\/img\/icons\/twitter.png",
 		"outputAbbreviatedPath": "\/img\/icons\/twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/twitter@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 698,
+		"inputAbbreviatedPath": "\/img\/icons\/twitter@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/twitter@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -347,6 +468,17 @@
 		"initialSize": 3237,
 		"inputAbbreviatedPath": "\/img\/philo-logo.png",
 		"outputAbbreviatedPath": "\/img\/philo-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/philo-logo@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5261,
+		"inputAbbreviatedPath": "\/img\/philo-logo@2x.png",
+		"outputAbbreviatedPath": "\/img\/philo-logo@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -514,17 +646,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/vendor\/min\/parallax-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor\/min\/parallax-min.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/min\/min\/parallax-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -536,12 +657,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/vendor\/parallax.js": {
+	"\/js\/vendor\/retina.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor\/parallax.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/min\/parallax-min.js",
+		"inputAbbreviatedPath": "\/js\/vendor\/retina.min.js",
+		"outputAbbreviatedPath": "\/js\/vendor\/min\/retina.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -747,7 +868,7 @@
 	"javascriptCreateSourceMap": 1,
 	"javascriptOutputStyle": 1,
 	"javascriptSyntaxCheckerStyle": 1,
-	"jsCheckerReservedNamesString": "alert, console, TweenLite, TimelineLite, Expo, Sine",
+	"jsCheckerReservedNamesString": "alert, console, TweenLite, TimelineLite, Expo, Sine, Modernizr",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
@@ -778,7 +899,7 @@
 			"flagValue": -1
 			},
 		"curly": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"debug": {
@@ -1153,9 +1274,9 @@
 	"sassCreateSourceMap": 0,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
-	"sassOutputStyle": 0,
+	"sassOutputStyle": 3,
 	"sassUseLibsass": 0,
-	"shouldRunAutoprefixer": 0,
+	"shouldRunAutoprefixer": 1,
 	"shouldRunBless": 0,
 	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
 	"slimAutoOutputPathEnabled": 1,
