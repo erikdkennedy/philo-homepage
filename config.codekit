@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19115",
+"creatorBuild": "19127",
 "files": {
 	"\/css\/main.css": {
 		"fileType": 16,
@@ -53,6 +53,26 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/edu.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/edu.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/img\/admin-dashboard.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15704,
+		"inputAbbreviatedPath": "\/img\/admin-dashboard.png",
+		"outputAbbreviatedPath": "\/img\/admin-dashboard.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/app-store-apple.png": {
 		"fileType": 32768,
@@ -116,6 +136,72 @@
 		"initialSize": 6295,
 		"inputAbbreviatedPath": "\/img\/app-store-roku@2x.png",
 		"outputAbbreviatedPath": "\/img\/app-store-roku@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/campus-channel.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 338771,
+		"inputAbbreviatedPath": "\/img\/campus-channel.png",
+		"outputAbbreviatedPath": "\/img\/campus-channel.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/checklist-check.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 853,
+		"inputAbbreviatedPath": "\/img\/checklist-check.png",
+		"outputAbbreviatedPath": "\/img\/checklist-check.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/checklist-check@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1827,
+		"inputAbbreviatedPath": "\/img\/checklist-check@2x.png",
+		"outputAbbreviatedPath": "\/img\/checklist-check@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/circuit-illustration.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2690,
+		"inputAbbreviatedPath": "\/img\/circuit-illustration.png",
+		"outputAbbreviatedPath": "\/img\/circuit-illustration.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/circuit-illustration@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7574,
+		"inputAbbreviatedPath": "\/img\/circuit-illustration@2x.png",
+		"outputAbbreviatedPath": "\/img\/circuit-illustration@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/common-area.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.2963e+06,
+		"inputAbbreviatedPath": "\/img\/common-area.png",
+		"outputAbbreviatedPath": "\/img\/common-area.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -193,6 +279,28 @@
 		"initialSize": 960581,
 		"inputAbbreviatedPath": "\/img\/football.png",
 		"outputAbbreviatedPath": "\/img\/football.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/giant-quotes.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3010,
+		"inputAbbreviatedPath": "\/img\/giant-quotes.png",
+		"outputAbbreviatedPath": "\/img\/giant-quotes.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/giant-quotes@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6272,
+		"inputAbbreviatedPath": "\/img\/giant-quotes@2x.png",
+		"outputAbbreviatedPath": "\/img\/giant-quotes@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -384,6 +492,380 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icons\/sales\/cap-big.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2482,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/cap-big.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/cap-big.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/cap-big@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5755,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/cap-big@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/cap-big@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/cap-blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1457,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/cap-blue.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/cap-blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/cap-blue@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3144,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/cap-blue@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/cap-blue@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/cap.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1408,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/cap.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/cap.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/cap@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2976,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/cap@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/cap@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/check-big-blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2068,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/check-big-blue.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/check-big-blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/check-big-blue@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4866,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/check-big-blue@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/check-big-blue@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/dials-big.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1732,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/dials-big.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/dials-big.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/dials-big@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3911,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/dials-big@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/dials-big@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/dials-blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 976,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/dials-blue.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/dials-blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/dials-blue@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2077,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/dials-blue@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/dials-blue@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/dials.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1132,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/dials.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/dials.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/dials@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2337,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/dials@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/dials@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/infrastructure-big.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2146,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/infrastructure-big.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/infrastructure-big.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/infrastructure-big@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4822,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/infrastructure-big@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/infrastructure-big@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/infrastructure-blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1089,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/infrastructure-blue.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/infrastructure-blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/infrastructure-blue@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2235,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/infrastructure-blue@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/infrastructure-blue@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/infrastructure.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1269,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/infrastructure.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/infrastructure.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/infrastructure@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2478,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/infrastructure@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/infrastructure@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/lightning-big.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1295,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/lightning-big.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/lightning-big.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/lightning-big@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4391,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/lightning-big@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/lightning-big@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/resources-big.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1788,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/resources-big.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/resources-big.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/resources-big@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4162,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/resources-big@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/resources-big@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/resources-blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1024,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/resources-blue.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/resources-blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/resources-blue@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2063,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/resources-blue@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/resources-blue@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/resources.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1153,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/resources.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/resources.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/resources@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2278,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/resources@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/resources@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/thumbs-up-big.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1999,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/thumbs-up-big.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/thumbs-up-big.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/thumbs-up-big@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4792,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/thumbs-up-big@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/thumbs-up-big@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/thumbs-up-blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1175,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/thumbs-up-blue.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/thumbs-up-blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/thumbs-up-blue@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2432,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/thumbs-up-blue@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/thumbs-up-blue@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/thumbs-up.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1267,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/thumbs-up.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/thumbs-up.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/thumbs-up@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2510,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/thumbs-up@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/thumbs-up@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icons\/tv.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -439,6 +921,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/Oval 2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1007,
+		"inputAbbreviatedPath": "\/img\/Oval 2.png",
+		"outputAbbreviatedPath": "\/img\/Oval 2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/philo-for-home.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -479,6 +972,94 @@
 		"initialSize": 5261,
 		"inputAbbreviatedPath": "\/img\/philo-logo@2x.png",
 		"outputAbbreviatedPath": "\/img\/philo-logo@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/school-logos\/cal-poly-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5398,
+		"inputAbbreviatedPath": "\/img\/school-logos\/cal-poly-logo.png",
+		"outputAbbreviatedPath": "\/img\/school-logos\/cal-poly-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/school-logos\/clemson-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7017,
+		"inputAbbreviatedPath": "\/img\/school-logos\/clemson-logo.png",
+		"outputAbbreviatedPath": "\/img\/school-logos\/clemson-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/school-logos\/harvard-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13758,
+		"inputAbbreviatedPath": "\/img\/school-logos\/harvard-logo.png",
+		"outputAbbreviatedPath": "\/img\/school-logos\/harvard-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/school-logos\/ohio-state-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9011,
+		"inputAbbreviatedPath": "\/img\/school-logos\/ohio-state-logo.png",
+		"outputAbbreviatedPath": "\/img\/school-logos\/ohio-state-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/school-logos\/texas-am-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3414,
+		"inputAbbreviatedPath": "\/img\/school-logos\/texas-am-logo.png",
+		"outputAbbreviatedPath": "\/img\/school-logos\/texas-am-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/school-logos\/uw-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6393,
+		"inputAbbreviatedPath": "\/img\/school-logos\/uw-logo.png",
+		"outputAbbreviatedPath": "\/img\/school-logos\/uw-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/school.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1679,
+		"inputAbbreviatedPath": "\/img\/school.png",
+		"outputAbbreviatedPath": "\/img\/school.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/school@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3413,
+		"inputAbbreviatedPath": "\/img\/school@2x.png",
+		"outputAbbreviatedPath": "\/img\/school@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -604,6 +1185,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/students.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.08754e+06,
+		"inputAbbreviatedPath": "\/img\/students.png",
+		"outputAbbreviatedPath": "\/img\/students.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/testimonial-author.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10634,
+		"inputAbbreviatedPath": "\/img\/testimonial-author.png",
+		"outputAbbreviatedPath": "\/img\/testimonial-author.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tv-with-roku.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 341609,
+		"inputAbbreviatedPath": "\/img\/tv-with-roku.png",
+		"outputAbbreviatedPath": "\/img\/tv-with-roku.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -635,12 +1249,45 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/min\/sales-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/sales-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/sales-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/sales.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/sales.js",
+		"outputAbbreviatedPath": "\/js\/min\/sales-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/vendor\/jquery-1.11.1.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/vendor\/jquery-1.11.1.min.js",
 		"outputAbbreviatedPath": "\/js\/vendor\/min\/jquery-1.11.1.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/vendor\/jquery.fittext.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/vendor\/jquery.fittext.js",
+		"outputAbbreviatedPath": "\/js\/vendor\/min\/jquery.fittext-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -676,7 +1323,7 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "Philo Homepage",
+	"displayValue": "Philo",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "harddrive_darkGray"
 	},
