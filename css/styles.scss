@@ -145,6 +145,21 @@ textarea {
 	@include content-width;
 }
 
+@mixin content-width--static {
+	@include content-width;
+
+	max-width: 1090px;
+
+	@media ($desktop) {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+.content-width--static {
+	@include content-width--static;
+}
+
 .indented {
 	margin-left: 70px;
 
@@ -202,6 +217,7 @@ body:not(.cookie-yes) .if-cookie-yes {display: none !important;}
 	padding: 0 22px;
 	height: 44px;
 	line-height: 46px;
+	color: white;
 	font-size: 15px;
 	font-weight: 500;
 	letter-spacing: .8px;
@@ -398,6 +414,7 @@ header {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
+		align-items: center;
 	}
 
 	.philo-logo {
@@ -1072,7 +1089,6 @@ footer {
 
 .sales-page header {
 	background: black;
-	height: 100px;
 }
 
 .sales-page nav {
@@ -1742,3 +1758,379 @@ footer {
 			@extend .dark-bg;
 		}
 	}
+
+
+
+/*****************************************
+			  STATIC PAGES
+*****************************************/
+
+.static-page {
+	color: $gray;
+
+	header {
+		@media ($desktop) {
+			background: black;
+		}
+	}
+
+	.splash {
+		height: 180px;
+		background-color: $black;
+		padding-bottom: 0;
+
+		.content-width--static {
+			position: relative;
+			height: 100%;
+		}
+
+		h1 {
+			@extend .dark-bg;
+
+			position: absolute;
+			bottom: 20px;
+			margin-bottom: 0;
+			text-align: left;
+			font-weight: 300;
+			text-shadow: 0 1px 4px rgba(black, .3);
+		}
+
+		@media ($desktop) {
+			margin-top: $header-height--desktop;
+			height: 260px;
+
+			h1 {
+				bottom: 30px;
+			}
+		}
+	}
+
+		.splash--careers {
+			background-image:
+					radial-gradient(circle at top center, rgba($black, .1), rgba($black, .7)),
+					url(../img/careers-bg.png);
+		}
+
+		.splash--contact-us {
+			background-image:
+					radial-gradient(circle at top center, rgba($black, .1), rgba($black, .7)),
+					url(../img/contact-bg.png);
+		}
+
+	main {
+		@include content-width--static;
+
+		margin-top: 10px;
+
+		@media ($desktop) {
+			display: flex;
+			justify-content: space-between;
+			margin-top: $header-height--desktop;
+		}
+	}
+
+	.splash + main {
+		@media ($desktop) {
+			margin-top: 30px;
+		}
+	}
+
+		article {
+			@media ($desktop) {
+				flex-grow: 1;
+				margin-right: 20px;
+				max-width: 600px;
+			}
+		}
+
+		h1 {
+			font-size: 40px;
+			font-weight: 300;
+			color: $blue;
+
+		}
+
+		/* TODO */
+		h2 {}
+
+		h3 {}
+
+		h4 {}
+
+		h5 {}
+
+		h6 {}
+
+		p {}
+
+		ul {}
+
+		li {}
+
+		.form-control {
+			margin-bottom: 22px;
+			width: 100%;
+			max-width: 500px;
+			height: 44px;
+		}
+
+			.form-control--select {
+				@extend .form-control;
+
+				border: 1px solid #D1D1D1;
+				border-radius: 2px;
+				box-shadow: inset 0 -1px 3px rgba(black, .4);
+				background: white url(../img/select-caret-down.png) no-repeat right 10px center;
+				overflow: hidden;
+
+				> select {
+					padding: 10px 5px;
+					font-family: "OmnesMSC", sans-serif;
+					font-size: 17px;
+					color: $gray;
+					width: 100%;
+					border: none;
+					box-shadow: none;
+					background-color: transparent;
+					background-image: none;
+			        appearance: none;
+
+			        &:focus {
+			        	outline: none;
+			        }
+				}
+			}
+
+			textarea.form-control {
+				height: 130px;
+				padding-top: 8px;
+			}
+
+			input[type=submit].form-control {
+				@extend .btn;
+
+				font-weight: 500;
+				letter-spacing: .8px;
+			}
+
+		.positions {
+			@include inline-ul;
+
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+
+			@media ($mobile-lg) {
+				justify-content: flex-start;
+			}
+
+			> li {
+				flex: 0 1 100%;
+				margin-right: 15px;
+				margin-bottom: 15px;
+				height: 110px;
+				background-color: black;
+
+				@media ($mobile-lg) {
+					flex-basis: 185px;
+				}
+
+				> a {
+					@extend .dark-bg;
+
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 100%;
+					height: 100%;
+					text-align: center;
+					font-size: 19px;
+					line-height: 23px;
+					font-weight: 500;
+					background: no-repeat center center;
+					background-size: cover;
+
+					> span {
+						display: block;
+					}
+				}
+			}
+		}
+
+		@media ($desktop-med) {
+			h1 {
+				margin: 41px 0 43px;
+				font-size: 64px;
+				letter-spacing: 3.4px;
+			}
+
+			h2 {
+				margin: 26px 0 6px;
+				font-size: 36px;
+				line-height: 48px;
+			}
+
+			p {
+				margin-top: 0;
+				font-size: 18px;
+			}
+		}
+
+		aside {
+			border-top: 1px solid rgba($gray, .2);
+
+			@media ($desktop) {
+				position: relative;
+				align-self: flex-start;
+				flex-basis: 230px;
+				flex-shrink: 0;
+				margin-top: 105px;
+				border-top: none;
+				padding-left: 20px;
+
+				&:before {
+					content: "";
+					position: absolute;
+					top: 0;
+					bottom: 10px;
+					left: 0;
+					width: 1px;
+					background-color: rgba($gray, .2);
+				}
+			}
+
+			@media ($desktop-med) {
+				flex-basis: 320px;
+				margin-top: 170px;
+			}
+
+			h2 {
+				font-size: 18px;
+				text-transform: uppercase;
+				letter-spacing: .2px;
+				text-align: center;
+
+				@media ($desktop) {
+					margin-top: 0;
+					text-align: left;
+					text-transform: none;
+					font-size: 24px;
+					letter-spacing: 0px;
+				}
+			}
+
+			@media ($mobile-lg) {
+				display: flex;
+				> div {
+					flex-basis: 50%;
+				}
+			}
+
+			@media ($desktop) {
+				display: block;
+			}
+
+			ul {
+				@include inline-ul;
+
+				flex-wrap: wrap;
+				justify-contents: center;
+				margin-bottom: 20px;
+
+				> li {
+					flex: 1 0 100%;
+
+					@media ($desktop) {
+						flex-basis: auto;
+					}
+
+					> a {
+						display: flex;
+						justify-content: center;
+						margin-bottom: 10px;
+
+						@media ($desktop) {
+							display: inline-block;
+						}
+
+						&.social {
+							margin: 0 auto 10px;
+							justify-content: flex-start;
+							width: 140px;
+							color: $blue;
+							font-size: 20px;
+
+							@media ($desktop) {
+								flex-basis: 100%;
+							}
+
+							> img {
+								margin-right: 8px;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.splash ~ main aside {
+			margin-top: 0;
+
+			@media ($desktop) {
+				margin-top: -10px;
+			}
+		}
+
+		aside.aside--dark {
+			$dark-aside-horizontal-padding: 20px;
+
+			@extend .dark-bg;
+
+			display: block;
+			padding: $dark-aside-horizontal-padding 24px;
+			background-color: $black;
+
+			h2 {
+				position: relative;
+				margin: 0;
+				padding-bottom: 20px;
+				text-align: left;
+				font-size: 32px;
+				font-weight: 300;
+
+				&:after {
+					content: "";
+					position: absolute;
+					left: -$dark-aside-horizontal-padding;
+					right: -$dark-aside-horizontal-padding;
+					bottom: 0;
+					background-color: rgba(white, .1);
+					height: 1px;
+				}
+
+				> img {
+					position: relative;
+					top: -2px;
+					margin-right: 12px;
+				}
+			}
+
+			> a {
+				@include link-color(white);
+
+				display: block;
+				padding-top: 24px;
+				line-height: 25px;
+			}
+		}
+
+			.splash ~ main aside.aside--dark {
+				@media ($desktop) {
+					margin-top: -50px;
+				}
+
+				@media ($desktop-med) {
+					margin-top: -60px;
+				}
+			}
+}

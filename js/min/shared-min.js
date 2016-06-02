@@ -1,0 +1,1 @@
+$(document).ready(function(){function t(){$("li.dropdown > a.active").removeClass("active")}$("a[href=#]").click(function(t){t.preventDefault()}),$(".dropdown > a").click(function(c){$(this).hasClass("active")?t():(t(),$(this).addClass("active"),c.stopPropagation())}),$(document).on("click touchstart",function(){t()})});

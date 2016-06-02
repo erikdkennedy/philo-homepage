@@ -2,6 +2,33 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19127",
 "files": {
+	"\/about.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/about.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/careers.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/careers.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/contact.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contact.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -74,6 +101,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/app-store-apple-gray.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4237,
+		"inputAbbreviatedPath": "\/img\/app-store-apple-gray.png",
+		"outputAbbreviatedPath": "\/img\/app-store-apple-gray.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/app-store-apple-gray@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9251,
+		"inputAbbreviatedPath": "\/img\/app-store-apple-gray@2x.png",
+		"outputAbbreviatedPath": "\/img\/app-store-apple-gray@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/app-store-apple.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -96,6 +145,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/app-store-google-gray.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4179,
+		"inputAbbreviatedPath": "\/img\/app-store-google-gray.png",
+		"outputAbbreviatedPath": "\/img\/app-store-google-gray.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/app-store-google-gray@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10195,
+		"inputAbbreviatedPath": "\/img\/app-store-google-gray@2x.png",
+		"outputAbbreviatedPath": "\/img\/app-store-google-gray@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/app-store-google.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -114,6 +185,28 @@
 		"initialSize": 7853,
 		"inputAbbreviatedPath": "\/img\/app-store-google@2x.png",
 		"outputAbbreviatedPath": "\/img\/app-store-google@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/app-store-roku-gray.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3517,
+		"inputAbbreviatedPath": "\/img\/app-store-roku-gray.png",
+		"outputAbbreviatedPath": "\/img\/app-store-roku-gray.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/app-store-roku-gray@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7731,
+		"inputAbbreviatedPath": "\/img\/app-store-roku-gray@2x.png",
+		"outputAbbreviatedPath": "\/img\/app-store-roku-gray@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -147,6 +240,105 @@
 		"initialSize": 338771,
 		"inputAbbreviatedPath": "\/img\/campus-channel.png",
 		"outputAbbreviatedPath": "\/img\/campus-channel.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/careers-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 555575,
+		"inputAbbreviatedPath": "\/img\/careers-bg.png",
+		"outputAbbreviatedPath": "\/img\/careers-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/careers\/account-manager.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35051,
+		"inputAbbreviatedPath": "\/img\/careers\/account-manager.png",
+		"outputAbbreviatedPath": "\/img\/careers\/account-manager.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/careers\/account-manager@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121979,
+		"inputAbbreviatedPath": "\/img\/careers\/account-manager@2x.png",
+		"outputAbbreviatedPath": "\/img\/careers\/account-manager@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/careers\/back-end-software-engineer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31859,
+		"inputAbbreviatedPath": "\/img\/careers\/back-end-software-engineer.png",
+		"outputAbbreviatedPath": "\/img\/careers\/back-end-software-engineer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/careers\/back-end-software-engineer@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118498,
+		"inputAbbreviatedPath": "\/img\/careers\/back-end-software-engineer@2x.png",
+		"outputAbbreviatedPath": "\/img\/careers\/back-end-software-engineer@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/careers\/front-end-software-engineer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42007,
+		"inputAbbreviatedPath": "\/img\/careers\/front-end-software-engineer.png",
+		"outputAbbreviatedPath": "\/img\/careers\/front-end-software-engineer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/careers\/front-end-software-engineer@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 149585,
+		"inputAbbreviatedPath": "\/img\/careers\/front-end-software-engineer@2x.png",
+		"outputAbbreviatedPath": "\/img\/careers\/front-end-software-engineer@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/careers\/sales-engineer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42770,
+		"inputAbbreviatedPath": "\/img\/careers\/sales-engineer.png",
+		"outputAbbreviatedPath": "\/img\/careers\/sales-engineer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/careers\/sales-engineer@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 159233,
+		"inputAbbreviatedPath": "\/img\/careers\/sales-engineer@2x.png",
+		"outputAbbreviatedPath": "\/img\/careers\/sales-engineer@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -202,6 +394,17 @@
 		"initialSize": 1.2963e+06,
 		"inputAbbreviatedPath": "\/img\/common-area.png",
 		"outputAbbreviatedPath": "\/img\/common-area.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/contact-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 870496,
+		"inputAbbreviatedPath": "\/img\/contact-bg.png",
+		"outputAbbreviatedPath": "\/img\/contact-bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -426,6 +629,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icons\/facebook-blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1165,
+		"inputAbbreviatedPath": "\/img\/icons\/facebook-blue.png",
+		"outputAbbreviatedPath": "\/img\/icons\/facebook-blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/facebook-blue@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2423,
+		"inputAbbreviatedPath": "\/img\/icons\/facebook-blue@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/facebook-blue@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icons\/facebook.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -466,6 +691,28 @@
 		"initialSize": 1372,
 		"inputAbbreviatedPath": "\/img\/icons\/home@2x.png",
 		"outputAbbreviatedPath": "\/img\/icons\/home@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/pin-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 691,
+		"inputAbbreviatedPath": "\/img\/icons\/pin-white.png",
+		"outputAbbreviatedPath": "\/img\/icons\/pin-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/pin-white@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1675,
+		"inputAbbreviatedPath": "\/img\/icons\/pin-white@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/pin-white@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -888,6 +1135,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icons\/twitter-blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1302,
+		"inputAbbreviatedPath": "\/img\/icons\/twitter-blue.png",
+		"outputAbbreviatedPath": "\/img\/icons\/twitter-blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/twitter-blue@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3006,
+		"inputAbbreviatedPath": "\/img\/icons\/twitter-blue@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/twitter-blue@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icons\/twitter.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1064,6 +1333,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/select-caret-down.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 197,
+		"inputAbbreviatedPath": "\/img\/select-caret-down.png",
+		"outputAbbreviatedPath": "\/img\/select-caret-down.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/select-caret-down@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 272,
+		"inputAbbreviatedPath": "\/img\/select-caret-down@2x.png",
+		"outputAbbreviatedPath": "\/img\/select-caret-down@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/shows\/1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1227,12 +1518,23 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/js\/main.js": {
+	"\/js\/index.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/main.js",
-		"outputAbbreviatedPath": "\/js\/min\/main-min.js",
+		"inputAbbreviatedPath": "\/js\/index.js",
+		"outputAbbreviatedPath": "\/js\/min\/index-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/index-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/index-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/index-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1260,12 +1562,34 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/min\/shared-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/shared-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/shared-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/sales.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/sales.js",
 		"outputAbbreviatedPath": "\/js\/min\/sales-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/shared.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/shared.js",
+		"outputAbbreviatedPath": "\/js\/min\/shared-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1314,6 +1638,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/press.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/press.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
