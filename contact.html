@@ -41,7 +41,7 @@
                     <li class="dropdown">
                         <a href="#">Help</a>
                         <ul>
-                            <li><a href="#">Help/Support</a></li>
+                            <li><a href="https://support.philo.com/hc/en-us">Help/Support</a></li>
                             <li><a href="#">Make a wish</a></li>
                         </ul>
                     </li>
@@ -70,10 +70,10 @@
         <main>
             <article>
                 <form>
-                    <input type="text" placeholder="Your Name" class="form-control">
-                    <input type="email" placeholder="Email Address" class="form-control">
-                    <input type="text" placeholder="Role" class="form-control">
-                    <input type="text" placeholder="Company or School" class="form-control">
+                    <input type="text" placeholder="Your Name" class="form-control" data-required="true">
+                    <input type="email" placeholder="Email Address" class="form-control" data-required="true">
+                    <input type="text" placeholder="Role" class="form-control" data-required="true">
+                    <input type="text" placeholder="Company or School" class="form-control" data-required="true">
                     <div class="form-control--select">
                         <select>
                             <option selected disabled>Message Type</option>
@@ -82,7 +82,7 @@
                             <option>Help Request</option>
                         </select>
                     </div>
-                    <textarea placeholder="Message" class="form-control"></textarea>
+                    <textarea placeholder="Message" class="form-control" data-required="true"></textarea>
                     <input type="submit" value="Send Us a Message" class="form-control">
                 </form>
             </article>
@@ -92,7 +92,12 @@
             </aside>
         </main>
 
+        <div class='toast'>
+            <strong>Thanks for reaching out!</strong>  We'll get back to you as soon as possible.
+        </div>
+
         <script src="js/vendor/jquery-1.11.1.min.js"></script>
         <script src="js/min/shared-min.js"></script>
+        <script src="js/min/contact-min.js"></script>
     </body>
 </html>
