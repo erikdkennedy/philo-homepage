@@ -1152,16 +1152,16 @@ footer {
 					vertical-align: middle;
 				}
 
-				&[href="#campus"]:before 			{@include background-image-retina("../img/icons/sales/cap", "png", 32, 32);}
-				&[href="#campus"].active:before 	{@include background-image-retina("../img/icons/sales/cap-blue", "png", 32, 32);}
-				&[href="#admins"]:before 			{@include background-image-retina("../img/icons/sales/dials", "png", 32, 32);}
-				&[href="#admins"].active:before 	{@include background-image-retina("../img/icons/sales/dials-blue", "png", 32, 32);}
-				&[href="#infrastructure"]:before 		{@include background-image-retina("../img/icons/sales/infrastructure", "png", 32, 32);}
-				&[href="#infrastructure"].active:before {@include background-image-retina("../img/icons/sales/infrastructure-blue", "png", 32, 32);}
-				&[href="#proven"]:before 			{@include background-image-retina("../img/icons/sales/thumbs-up", "png", 32, 32);}
-				&[href="#proven"].active:before 	{@include background-image-retina("../img/icons/sales/thumbs-up-blue", "png", 32, 32);}
-				&[href="#resources"]:before 		{@include background-image-retina("../img/icons/sales/resources", "png", 32, 32);}
-				&[href="#resources"].active:before 	{@include background-image-retina("../img/icons/sales/resources-blue", "png", 32, 32);}
+				&[href="#campus"]:before 			{@include background-image-retina("../img/icons/sales/cap", png, 32px, 32px);}
+				&[href="#campus"].active:before 	{@include background-image-retina("../img/icons/sales/cap-blue", png, 32px, 32px);}
+				&[href="#admins"]:before 			{@include background-image-retina("../img/icons/sales/dials", png, 32px, 32px);}
+				&[href="#admins"].active:before 	{@include background-image-retina("../img/icons/sales/dials-blue", png, 32px, 32px);}
+				&[href="#infrastructure"]:before 		{@include background-image-retina("../img/icons/sales/infrastructure", png, 32px, 32px);}
+				&[href="#infrastructure"].active:before {@include background-image-retina("../img/icons/sales/infrastructure-blue", png, 32px, 32px);}
+				&[href="#proven"]:before 			{@include background-image-retina("../img/icons/sales/thumbs-up", png, 32px, 32px);}
+				&[href="#proven"].active:before 	{@include background-image-retina("../img/icons/sales/thumbs-up-blue", png, 32px, 32px);}
+				&[href="#resources"]:before 		{@include background-image-retina("../img/icons/sales/resources", png, 32px, 32px);}
+				&[href="#resources"].active:before 	{@include background-image-retina("../img/icons/sales/resources-blue", png, 32px, 32px);}
 
 				&[href="#try"] {
 					margin-left: 4px;

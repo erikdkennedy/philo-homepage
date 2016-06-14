@@ -16,13 +16,18 @@ $(document).ready(function() {
 	}
 
 	function updateNavState() {
-		//TODO only for larger devices
-		for (var i=0; i<sections.length; i++) {
-			if (scrolledPastPoint(sections[i]) && !scrolledPastPoint(sections[i+1])) {
-				setNavTo(i);
-				break;
+		if (isDesktop()) {
+			for (var i=0; i<sections.length; i++) {
+				if (scrolledPastPoint(sections[i]) && !scrolledPastPoint(sections[i+1])) {
+					setNavTo(i);
+					break;
+				}
 			}
 		}
+	}
+
+	function isDesktop() {
+		return window.matchMedia("(min-width: 769px)").matches;
 	}
 
 	function scrolledPastPoint(offset) {
@@ -35,6 +40,13 @@ $(document).ready(function() {
 				.eq(index).addClass("active");
 	}
 
+	function ensureNavInitialization() {
+		if (!sections.length) {
+			determineSectionOffsets();
+			updateNavState();
+		}
+	}
+
 
 
 	/*****************************************
@@ -42,10 +54,12 @@ $(document).ready(function() {
 	******************************************/
 
 	$(document).scroll(function() {
+		ensureNavInitialization();
 		updateNavState();
 	});
 
 	$(window).resize(function() {
+		ensureNavInitialization();
 		viewportWidth = window.innerWidth;
 		viewportHeight = window.innerHeight;
 		determineSectionOffsets();
@@ -53,6 +67,7 @@ $(document).ready(function() {
 	});
 
 	$("nav li a").click(function() {
+		ensureNavInitialization();
 		var indexOfClickedNavLink = $(this).parent().prevAll().length;
 		setNavTo(indexOfClickedNavLink);
 		$("html, body").scrollTop(sections[indexOfClickedNavLink] - $("header").outerHeight());
@@ -65,6 +80,5 @@ $(document).ready(function() {
 				   INITIALIZATION
 	******************************************/
 
-	determineSectionOffsets();
-	updateNavState();
+
 });
