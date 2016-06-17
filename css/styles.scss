@@ -298,6 +298,92 @@ body:not(.cookie-yes) .if-cookie-yes {display: none !important;}
 		}
 	}
 
+.form-control {
+	margin-bottom: 22px;
+	width: 100%;
+	max-width: 500px;
+	height: 44px;
+}
+
+	.form-control--select {
+		@extend .form-control;
+
+		border: 1px solid #D1D1D1;
+		border-radius: 2px;
+		box-shadow: inset 0 -1px 3px rgba(black, .4);
+		background: white url(../img/select-caret-down.png) no-repeat right 10px center;
+		overflow: hidden;
+
+		> select {
+			padding: 10px 5px;
+			font-family: "OmnesMSC", sans-serif;
+			font-size: 17px;
+			color: $gray;
+			width: 100%;
+			border: none;
+			box-shadow: none;
+			background-color: transparent;
+			background-image: none;
+	        appearance: none;
+
+	        &:focus {
+	        	outline: none;
+	        }
+		}
+	}
+
+	textarea.form-control {
+		height: 130px;
+		padding-top: 8px;
+	}
+
+	input[type=submit].form-control {
+		@extend .btn;
+
+		font-weight: 500;
+		letter-spacing: .8px;
+	}
+
+.error {
+	@extend .dark-bg;
+	@extend .form-control;
+
+	position: relative;
+	margin-top: -14px;
+	padding: 9px;
+	background-color: $red;
+	border-radius: 5px;
+
+	&:before {
+		content: "";
+		position: absolute;
+		top: -12px;
+		left: 20px;
+		border: 6px solid transparent;
+		border-bottom: 6px solid $red;
+	}
+}
+
+.toast {
+	@extend .dark-bg;
+
+	position: fixed;
+	top: 100%;
+	left: 0;
+	right: 0;
+	margin: 0 15px;
+	padding: 14px;
+	max-width: 350px;
+	background-color: $green;
+	box-shadow: 0 1px 3px rgba(black, .4);
+	transition: all 0.2s ease;
+	z-index: 10;
+
+	&.appear {
+		transform: translateY(-150%);
+	}
+}
+
 .no-philo-links {
 	margin-top: 0;
 	font-size: 13px;
@@ -424,6 +510,83 @@ body:not(.cookie-yes) .if-cookie-yes {display: none !important;}
 	width: 48px;
 	height: 48px;
 }
+
+body.has-modal-open {
+	overflow: hidden;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(black, .8);
+	z-index: 100;
+	overflow: auto;
+
+	&.is-visible {display: block;}
+}
+
+	.modal__window {
+		margin: 50px auto 0;
+		max-width: 560px;
+		background-color: white;
+		box-shadow: 0	2px	4px		rgba(black, .5),
+					0	0	14px	rgba(black, .5);
+
+		@media ($desktop) {
+			margin-top: 100px;
+		}
+	}
+
+		.modal__header {
+			@extend .dark-bg;
+
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+			padding: 10px 20px;
+			background-color: $blue;
+			box-shadow: 0 1px 2px rgba(black, .4);
+
+			> h1 {
+				margin: 0;
+				font-size: 21px;
+				font-weight: 500;
+			}
+
+			a.modal__close {
+				@include background-image-retina("../img/icons/x", png, 20px, 30px);
+
+				width: 20px;
+				height: 30px;
+				background-repeat: no-repeat;
+				background-position: center center;
+				opacity: .8;
+
+				&:hover {
+					opacity: 1;
+				}
+			}
+		}
+
+		.modal__body {
+			padding: 10px 20px;
+		}
+
+		.modal__footer {
+			padding: 10px 20px;
+
+			.btn {
+				margin-right: 20px;
+			}
+
+			.modal__cancel {
+				color: $blue;
+			}
+		}
 
 header {
 	padding-top: 10px;
@@ -1965,52 +2128,6 @@ footer {
 			color: $blue;
 		}
 
-		.form-control {
-			margin-bottom: 22px;
-			width: 100%;
-			max-width: 500px;
-			height: 44px;
-		}
-
-			.form-control--select {
-				@extend .form-control;
-
-				border: 1px solid #D1D1D1;
-				border-radius: 2px;
-				box-shadow: inset 0 -1px 3px rgba(black, .4);
-				background: white url(../img/select-caret-down.png) no-repeat right 10px center;
-				overflow: hidden;
-
-				> select {
-					padding: 10px 5px;
-					font-family: "OmnesMSC", sans-serif;
-					font-size: 17px;
-					color: $gray;
-					width: 100%;
-					border: none;
-					box-shadow: none;
-					background-color: transparent;
-					background-image: none;
-			        appearance: none;
-
-			        &:focus {
-			        	outline: none;
-			        }
-				}
-			}
-
-			textarea.form-control {
-				height: 130px;
-				padding-top: 8px;
-			}
-
-			input[type=submit].form-control {
-				@extend .btn;
-
-				font-weight: 500;
-				letter-spacing: .8px;
-			}
-
 		.positions {
 			@include inline-ul;
 
@@ -2373,44 +2490,5 @@ footer {
 		> a {
 			color: $gray;
 		}
-	}
-}
-
-.error {
-	@extend .dark-bg;
-	@extend .form-control;
-
-	position: relative;
-	padding: 9px;
-	background-color: $red;
-	border-radius: 5px;
-
-	&:before {
-		content: "";
-		position: absolute;
-		top: -12px;
-		left: 20px;
-		border: 6px solid transparent;
-		border-bottom: 6px solid $red;
-	}
-}
-
-.toast {
-	@extend .dark-bg;
-
-	position: fixed;
-	top: 100%;
-	left: 0;
-	right: 0;
-	margin: 0 15px;
-	padding: 14px;
-	max-width: 350px;
-	background-color: $green;
-	box-shadow: 0 1px 3px rgba(black, .4);
-	transition: all 0.2s ease;
-	z-index: 10;
-
-	&.appear {
-		transform: translateY(-150%);
 	}
 }

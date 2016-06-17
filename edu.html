@@ -236,7 +236,7 @@
                 <h1><img src="img/icons/sales/resources-big.png"> Resources</h1>
                 <p>Download these whitepapers about the Philo system and how it would work at your school.</p>
                 <div class="whitepapers">
-                    <a href="#" class="whitepaper" id="school-admins-whitepaper">
+                    <a href="#" class="whitepaper" id="school-admins-whitepaper" data-modal="send-paper-modal">
                         <h2 class="whitepaper__title">Philo for School Admins</h2>
                         <p class="whitepaper__subtitle">A Philo Whitepaper</p>
                         <div class="whitepaper__illustration">
@@ -244,13 +244,13 @@
                         </div>
                         <p class="whitepaper__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac massa vestibulum, vestibulum nunc in, imperdiet augue.</p>
                     </a>
-                    <a href="#" class="whitepaper" id="on-campus-dvr-whitepaper">
+                    <a href="#" class="whitepaper" id="on-campus-dvr-whitepaper" data-modal="send-paper-modal">
                         <h2 class="whitepaper__title">On-Campus Digital Video Recording</h2>
                         <p class="whitepaper__subtitle">A Philo Whitepaper</p>
                         <div class="whitepaper__illustration"></div>
                         <p class="whitepaper__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac massa vestibulum, vestibulum nunc in, imperdiet augue.</p>
                     </a>
-                    <a href="#" class="whitepaper" id="understanding-bandwidth-whitepaper">
+                    <a href="#" class="whitepaper" id="understanding-bandwidth-whitepaper" data-modal="send-paper-modal">
                         <h2 class="whitepaper__title">Understanding Bandwidth</h2>
                         <p class="whitepaper__subtitle">A Philo Whitepaper</p>
                         <div class="whitepaper__illustration">
@@ -274,13 +274,31 @@
                 </form>
             </section>
 
-            <!-- MODAL -->
-
         </main>
+
+        <!-- MODAL -->
+        <div class="modal" data-modal="send-paper-modal">
+            <div class="modal__window">
+                <div class="modal__header">
+                    <h1>Send "<span data-content="whitepaper-name"></span>"</h1>
+                    <a href="javascript:void(0)" class="modal__close"></a></div>
+                <form>
+                    <div class="modal__body">
+                        <p>Where should we send this whitepaper?</p>
+                        <input type="email" class="form-control" placeholder="Email" data-required=true>
+                    </div>
+                    <div class="modal__footer">
+                        <input type="submit" class="btn modal__cta" value="Send the Paper" />
+                        <a href="javascript:void(0)" class="modal__close modal__cancel">Cancel</a>
+                    </div>
+                </div>
+            </form>
+        </div>
 
         <script src="js/vendor/jquery-1.11.1.min.js"></script>
         <script src="js/min/sales-min.js"></script>
         <script src="js/min/shared-min.js"></script>
+        <script src="js/min/edu-min.js"></script>
         <script src="js/vendor/retina.min.js"></script>
     </body>
 </html>
