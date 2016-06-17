@@ -99,6 +99,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/about-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 557996,
+		"inputAbbreviatedPath": "\/img\/about-bg.png",
+		"outputAbbreviatedPath": "\/img\/about-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/admin-dashboard.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1536,6 +1547,61 @@
 		"initialSize": 1.08754e+06,
 		"inputAbbreviatedPath": "\/img\/students.png",
 		"outputAbbreviatedPath": "\/img\/students.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/team\/alana-davis.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32159,
+		"inputAbbreviatedPath": "\/img\/team\/alana-davis.png",
+		"outputAbbreviatedPath": "\/img\/team\/alana-davis.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/team\/andrew-mccollum.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30677,
+		"inputAbbreviatedPath": "\/img\/team\/andrew-mccollum.png",
+		"outputAbbreviatedPath": "\/img\/team\/andrew-mccollum.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/team\/marc-emmons.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37933,
+		"inputAbbreviatedPath": "\/img\/team\/marc-emmons.png",
+		"outputAbbreviatedPath": "\/img\/team\/marc-emmons.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/team\/michael-scott.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36060,
+		"inputAbbreviatedPath": "\/img\/team\/michael-scott.png",
+		"outputAbbreviatedPath": "\/img\/team\/michael-scott.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/team\/thomer-gil.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32748,
+		"inputAbbreviatedPath": "\/img\/team\/thomer-gil.png",
+		"outputAbbreviatedPath": "\/img\/team\/thomer-gil.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

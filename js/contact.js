@@ -41,19 +41,43 @@ $(document).ready(function() {
 		});
 
 		if ($blankRequiredChildren.length === 0) {
-			$(".toast").addClass("appear");
-			$(this).find("input, textarea").val("");
+			createToast("<strong>Thanks for reaching out!</strong>  We'll get back to you as soon as possible.");
+			$(this).find("input[type=text], input[type=email], textarea").val("");
 			e.preventDefault();
+
+			//send message to server
+
 		} else {
 			$blankRequiredChildren.addError("This is a required field");
 			e.preventDefault();
 		}
 	});
 
-	//ON TOAST TRANSITION END
-	$(".toast").on("transitionend", function() {
+
+
+	/**************************************
+					HELPERS
+	**************************************/
+
+	function createToast(innerHTML, lifespanInMS) {
+		var lifespan = lifespanInMS || 3000;
+
+		$("body").append("<div class='toast'>" + innerHTML + "</div>");
+		var $toast = $(".toast");
+		setStyleBeforeAnimation($toast);
+		$toast.addClass("appear");
+
 		setTimeout(function() {
-			$(".toast").removeClass("appear");
-		}, 3000);
-	});
+			$toast
+					.removeClass("appear")
+					.on("transitionend", function() {
+						$(this).remove();
+					});
+		},
+		lifespan);
+	}
+
+	function setStyleBeforeAnimation($el) {
+		return window.getComputedStyle($el[0]).opacity;
+	}
 });
