@@ -429,6 +429,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/couple-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 956902,
+		"inputAbbreviatedPath": "\/img\/couple-1.png",
+		"outputAbbreviatedPath": "\/img\/couple-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/couple-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.13466e+06,
+		"inputAbbreviatedPath": "\/img\/couple-2.png",
+		"outputAbbreviatedPath": "\/img\/couple-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/devices-lg.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -847,6 +869,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icons\/sales\/computer-big.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1702,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/computer-big.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/computer-big.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/computer-big@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3973,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/computer-big@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/computer-big@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/computer-blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 985,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/computer-blue.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/computer-blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/computer-blue@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2011,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/computer-blue@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/computer-blue@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/computer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1117,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/computer.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/computer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/computer@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2235,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/computer@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/computer@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icons\/sales\/dials-big.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -913,6 +1001,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icons\/sales\/dollar-sign-big.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2060,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/dollar-sign-big.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/dollar-sign-big.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/dollar-sign-big@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4778,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/dollar-sign-big@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/dollar-sign-big@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/dollar-sign-blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1325,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/dollar-sign-blue.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/dollar-sign-blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/dollar-sign-blue@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2703,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/dollar-sign-blue@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/dollar-sign-blue@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/dollar-sign.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1344,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/dollar-sign.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/dollar-sign.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/dollar-sign@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2764,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/dollar-sign@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/dollar-sign@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icons\/sales\/infrastructure-big.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -975,6 +1129,72 @@
 		"initialSize": 2478,
 		"inputAbbreviatedPath": "\/img\/icons\/sales\/infrastructure@2x.png",
 		"outputAbbreviatedPath": "\/img\/icons\/sales\/infrastructure@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/integration-big.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2146,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/integration-big.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/integration-big.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/integration-big@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4822,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/integration-big@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/integration-big@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/integration-blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1108,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/integration-blue.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/integration-blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/integration-blue@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2233,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/integration-blue@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/integration-blue@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/integration.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1269,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/integration.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/integration.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/sales\/integration@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2478,
+		"inputAbbreviatedPath": "\/img\/icons\/sales\/integration@2x.png",
+		"outputAbbreviatedPath": "\/img\/icons\/sales\/integration@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1221,6 +1441,138 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/ipads\/bottom-sm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 141124,
+		"inputAbbreviatedPath": "\/img\/ipads\/bottom-sm.png",
+		"outputAbbreviatedPath": "\/img\/ipads\/bottom-sm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ipads\/bottom-sm@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 486021,
+		"inputAbbreviatedPath": "\/img\/ipads\/bottom-sm@2x.png",
+		"outputAbbreviatedPath": "\/img\/ipads\/bottom-sm@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ipads\/bottom.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 496892,
+		"inputAbbreviatedPath": "\/img\/ipads\/bottom.png",
+		"outputAbbreviatedPath": "\/img\/ipads\/bottom.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ipads\/bottom@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.65143e+06,
+		"inputAbbreviatedPath": "\/img\/ipads\/bottom@2x.png",
+		"outputAbbreviatedPath": "\/img\/ipads\/bottom@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ipads\/middle-sm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116647,
+		"inputAbbreviatedPath": "\/img\/ipads\/middle-sm.png",
+		"outputAbbreviatedPath": "\/img\/ipads\/middle-sm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ipads\/middle-sm@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 393182,
+		"inputAbbreviatedPath": "\/img\/ipads\/middle-sm@2x.png",
+		"outputAbbreviatedPath": "\/img\/ipads\/middle-sm@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ipads\/middle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 411098,
+		"inputAbbreviatedPath": "\/img\/ipads\/middle.png",
+		"outputAbbreviatedPath": "\/img\/ipads\/middle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ipads\/middle@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.33347e+06,
+		"inputAbbreviatedPath": "\/img\/ipads\/middle@2x.png",
+		"outputAbbreviatedPath": "\/img\/ipads\/middle@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ipads\/top-sm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78209,
+		"inputAbbreviatedPath": "\/img\/ipads\/top-sm.png",
+		"outputAbbreviatedPath": "\/img\/ipads\/top-sm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ipads\/top-sm@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 254868,
+		"inputAbbreviatedPath": "\/img\/ipads\/top-sm@2x.png",
+		"outputAbbreviatedPath": "\/img\/ipads\/top-sm@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ipads\/top.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 371909,
+		"inputAbbreviatedPath": "\/img\/ipads\/top.png",
+		"outputAbbreviatedPath": "\/img\/ipads\/top.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ipads\/top@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 507691,
+		"inputAbbreviatedPath": "\/img\/ipads\/top@2x.png",
+		"outputAbbreviatedPath": "\/img\/ipads\/top@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/live-tv.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1283,6 +1635,28 @@
 		"initialSize": 5261,
 		"inputAbbreviatedPath": "\/img\/philo-logo@2x.png",
 		"outputAbbreviatedPath": "\/img\/philo-logo@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pointer-down.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 605,
+		"inputAbbreviatedPath": "\/img\/pointer-down.png",
+		"outputAbbreviatedPath": "\/img\/pointer-down.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pointer-top-right.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2168,
+		"inputAbbreviatedPath": "\/img\/pointer-top-right.png",
+		"outputAbbreviatedPath": "\/img\/pointer-top-right.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1779,6 +2153,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/nctc.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/nctc.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/press.html": {
 		"fileType": 8192,

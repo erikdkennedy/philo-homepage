@@ -777,6 +777,10 @@ header {
 	}
 }
 
+.no-max-width {
+	max-width: none !important;
+}
+
 
 
 /*****************************************
@@ -1268,7 +1272,7 @@ footer {
 
 
 /*****************************************
-				EDU.HTML
+				SALES PAGES
 *****************************************/
 
 .sales-page header {
@@ -1276,6 +1280,7 @@ footer {
 }
 
 .sales-page nav {
+	z-index: 20;
 
 	> ul {
 		@extend .ul-reset;
@@ -1284,6 +1289,8 @@ footer {
 		margin: 0 auto;
 		width: 240px;
 		font-size: 16px;
+		border-radius: 5px;
+		background-color: rgba(white, .95);
 
 		&:before {
 			content: "";
@@ -1293,11 +1300,12 @@ footer {
 			bottom: 10px;
 			width: 2px;
 			background-color: $light-gray;
-			z-index: -1;
 		}
 
 		> li {
+			position: relative;
 			margin: 5px 0;
+			z-index: 2;
 
 			> a {
 				display: block;
@@ -1325,6 +1333,7 @@ footer {
 					vertical-align: middle;
 				}
 
+				// EDU nav icons (some also apply to NCTC)
 				&[href="#campus"]:before 			{@include background-image-retina("../img/icons/sales/cap", png, 32px, 32px);}
 				&[href="#campus"].active:before 	{@include background-image-retina("../img/icons/sales/cap-blue", png, 32px, 32px);}
 				&[href="#admins"]:before 			{@include background-image-retina("../img/icons/sales/dials", png, 32px, 32px);}
@@ -1335,6 +1344,14 @@ footer {
 				&[href="#proven"].active:before 	{@include background-image-retina("../img/icons/sales/thumbs-up-blue", png, 32px, 32px);}
 				&[href="#resources"]:before 		{@include background-image-retina("../img/icons/sales/resources", png, 32px, 32px);}
 				&[href="#resources"].active:before 	{@include background-image-retina("../img/icons/sales/resources-blue", png, 32px, 32px);}
+
+				// NCTC nav-specific icons
+				&[href="#features"]:before 		{@include background-image-retina("../img/icons/sales/computer", png, 32px, 32px);}
+				&[href="#features"].active:before 	{@include background-image-retina("../img/icons/sales/computer-blue", png, 32px, 32px);}
+				&[href="#integration"]:before 		{@include background-image-retina("../img/icons/sales/integration", png, 32px, 32px);}
+				&[href="#integration"].active:before 	{@include background-image-retina("../img/icons/sales/integration-blue", png, 32px, 32px);}
+				&[href="#cost-effective"]:before 			{@include background-image-retina("../img/icons/sales/dollar-sign", png, 32px, 32px);}
+				&[href="#cost-effective"].active:before 	{@include background-image-retina("../img/icons/sales/dollar-sign-blue", png, 32px, 32px);}
 
 				&[href="#try"] {
 					margin-left: 4px;
@@ -1410,10 +1427,6 @@ footer {
 		padding-bottom: 150px;
 	}
 
-	@media ($desktop-med) {
-		padding-bottom: 190px;
-	}
-
 	&:after {
 		content: "";
 		position: absolute;
@@ -1432,7 +1445,7 @@ footer {
 		}
 	}
 
-	h1 {
+	> h1 {
 		margin: 0;
 		padding-left: 70px;
 		padding-bottom: 23px;
@@ -1467,6 +1480,21 @@ footer {
 			img {
 				margin: 0 60px 0 0;
 			}
+		}
+	}
+
+	> h2 {
+		margin: -18px 0 23px;
+		padding-left: 70px;
+		font-size: 18px;
+		opacity: .8;
+
+		@media ($tablet) {
+			padding-left: 95px;
+		}
+
+		@media ($desktop-med) {
+			padding-left: 119px;
 		}
 	}
 }
@@ -1521,20 +1549,9 @@ footer {
 
 .testimonials {
 	position: relative;
-	margin: 50px 0;
+	margin: 20px 0 0;
 	padding: 40px 10px 20px;
 	background-color: #EFEFEF;
-
-	> img {
-		position: absolute;
-		top: -28px;
-		left: 14px;
-		width: 60px;
-
-		@media ($desktop) {
-			width: auto;
-		}
-	}
 
 	@media ($desktop) {
 		margin-left: -20px;
@@ -1553,6 +1570,17 @@ footer {
 		padding-left: 10px;
 		border-top-left-radius: 5px;
 		border-bottom-left-radius: 5px;
+	}
+
+	> img {
+		position: absolute;
+		top: -28px;
+		left: 14px;
+		width: 60px;
+
+		@media ($desktop) {
+			width: auto;
+		}
 	}
 }
 
@@ -1708,18 +1736,6 @@ footer {
 			}
 		}
 
-
-
-
-
-#campus .poster {
-	background-image: url(../img/students.png);
-}
-
-#infrastructure .poster {
-	background-image: url(../img/common-area.png);
-}
-
 .giant-checklist {
 	@extend .ul-reset;
 
@@ -1862,9 +1878,10 @@ footer {
 		}
 	}
 
-		.whitepaper {
+		a.whitepaper {
 			@include link-color($gray);
 
+			display: block;
 			flex-basis: 260px;
 			flex-shrink: 1;
 			min-width: 200px;
@@ -1925,7 +1942,7 @@ footer {
 	content: none;
 }
 
-	.contact-philo {
+	.request-a-demo {
 		@extend .indented;
 
 		max-width: 460px;
@@ -1945,6 +1962,258 @@ footer {
 			@extend .dark-bg;
 		}
 	}
+
+// SPECIFIC SALES PAGE SECTIONS STYLING
+
+#campus .poster {
+	background-image: url(../img/students.png);
+}
+
+#infrastructure .poster {
+	background-image: url(../img/common-area.png);
+}
+
+#integration .poster {
+	background-image: url(../img/couple-1.png);
+}
+
+#cost-effective .poster {
+	background-image: url(../img/couple-2.png);
+}
+
+.ipad-callouts {
+	padding-bottom: 33px;
+	overflow: hidden;
+
+	@media ($tablet) {
+		padding-bottom: 83px;
+		overflow: auto;
+	}
+
+	@media ($desktop-med) {
+		margin: 0 auto;
+		max-width: 744px;
+	}
+
+	@media ($desktop-lg) {
+		max-width: none;
+		overflow: visible;
+		padding-bottom: 30px;
+	}
+}
+
+	.ipad-callout {
+		position: relative;
+
+		@mixin pointer-down {
+			&:after {
+				@include horizontally-center;
+
+				content: url(../img/pointer-down.png);
+				position: absolute;
+				top: 100%;
+			}
+		}
+
+		&:nth-child(1) {
+			.ipad-callout__ipad {
+				transform: translateX(-152px);
+				width: 375px;
+				height: auto;
+
+				@media ($desktop-lg) {
+					transform: translate(-210px, 183px);
+					width: 548px;
+				}
+			}
+
+			.ipad-callout__callout {
+				top: 8px;
+				left: auto;
+				right: 0;
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+				border-top-left-radius: 5px;
+				border-bottom-left-radius: 5px;
+
+				@media ($desktop) {
+					border-top-right-radius: 5px;
+					border-bottom-right-radius: 5px;
+				}
+
+				@media ($desktop-med) {
+					right: 88px;
+					top: 0;
+				}
+
+				@media ($desktop-lg) {
+					@include pointer-down;
+
+					top: 0;
+					left: 160px;
+					transform: scale(.9);
+				}
+			}
+		}
+
+		&:nth-child(2) {
+			margin-top: -17px;
+
+			.ipad-callout__ipad {
+				transform: translateX(-2px);
+				width: 452px;
+				height: auto;
+
+				@media ($desktop-lg) {
+					transform: translate(145px, -19px);
+					width: 571px;
+				}
+			}
+
+			.ipad-callout__callout {
+				top: 144px;
+				transform-origin: top left;
+				transform: scale(1.1);
+
+				@media ($desktop) {
+					border-top-left-radius: 5px;
+					border-bottom-left-radius: 5px;
+				}
+
+				@media ($desktop-lg) {
+					@include pointer-down;
+
+					top: -225px;
+					left: auto;
+					right: 32px;
+					transform: scale(1.0);
+				}
+			}
+		}
+
+		&:nth-child(3) {
+			margin-top: 17px;
+
+			@media ($tablet) {
+				margin-top: 53px;
+			}
+
+			@media ($desktop-med) {
+				margin-top: 27px;
+			}
+
+			@media ($desktop-lg) {
+				margin-top: 0;
+			}
+
+			.ipad-callout__ipad {
+				transform: translateX(15px);
+				width: 534px;
+				height: auto;
+
+				@media ($desktop-lg) {
+					transform: translate(252px, -107px);
+					width: 659px;
+				}
+			}
+
+			.ipad-callout__callout {
+				top: auto;
+				bottom: 0;
+				transform-origin: top left;
+				transform: scale(1.2);
+
+				@media ($tablet) {
+					transform-origin: top right;
+					left: auto;
+					right: 0px;
+					border-top-right-radius: 0;
+					border-bottom-right-radius: 0;
+					border-top-left-radius: 5px;
+					border-bottom-left-radius: 5px;
+				}
+
+				@media ($desktop) {
+					border-top-right-radius: 5px;
+					border-bottom-right-radius: 5px;
+				}
+
+				@media ($desktop-lg) {
+					top: 189px;
+					left: 253px;
+					right: auto;
+					bottom: auto;
+
+					&:after {
+						content: url(../img/pointer-top-right.png);
+						position: absolute;
+						left: 100%;
+						bottom: 30%;
+					}
+				}
+			}
+		}
+	}
+
+		.ipad-callout__ipad {
+			display: block;
+			margin: 0 auto;
+		}
+
+		.ipad-callout__callout {
+			@extend .dark-bg;
+
+			position: absolute;
+			top: 0;
+			left: 0;
+			border-top-right-radius: 5px;
+			border-bottom-right-radius: 5px;
+			max-width: 205px;
+			padding: 10px;
+			background-color: rgba(black, .75);
+			z-index: 2;
+
+			@media ($tablet) {
+				max-width: 269px;
+			}
+
+			@media ($desktop-med) {
+				border-radius: 5px;
+			}
+
+			@media ($desktop-lg) {
+				transform-origin: center center;
+				max-width: 340px;
+			}
+
+			> h2 {
+				margin: 0;
+				font-size: 19px;
+
+				@media ($tablet) {
+					font-size: 24px;
+				}
+
+				@media ($desktop-lg) {
+					font-size: 36px;
+				}
+			}
+
+			> p {
+				margin-top: 8px;
+				font-size: 12px;
+				line-height: 1.4;
+
+				@media ($tablet) {
+					font-size: 14px;
+				}
+
+				@media ($desktop-lg) {
+					font-size: 17px;
+				}
+			}
+		}
+
 
 
 
